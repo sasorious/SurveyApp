@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44C47732C40307C001B6BB0 /* SurveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47722C40307C001B6BB0 /* SurveyApp.swift */; };
+		C44C47772C40307E001B6BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C47762C40307E001B6BB0 /* Assets.xcassets */; };
+		C44C477A2C40307E001B6BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C47792C40307E001B6BB0 /* Preview Assets.xcassets */; };
+		C44C47882C4041C9001B6BB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47872C4041C9001B6BB0 /* LoginViewModel.swift */; };
+		C44C478A2C4041E2001B6BB0 /* SurveySelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47892C4041E2001B6BB0 /* SurveySelectionViewModel.swift */; };
+		C44C478C2C404208001B6BB0 /* CustomerInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C478B2C404208001B6BB0 /* CustomerInfoViewModel.swift */; };
+		C44C478E2C40422A001B6BB0 /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C478D2C40422A001B6BB0 /* QuestionnaireViewModel.swift */; };
+		C44C47902C40425B001B6BB0 /* SurveyAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C478F2C40425B001B6BB0 /* SurveyAppView.swift */; };
+		C44C47922C404280001B6BB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47912C404280001B6BB0 /* LoginView.swift */; };
+		C44C47942C4042A3001B6BB0 /* SurveySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47932C4042A3001B6BB0 /* SurveySelectionView.swift */; };
+		C44C47962C4042B7001B6BB0 /* CustomerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47952C4042B7001B6BB0 /* CustomerInfoView.swift */; };
+		C44C47982C4042E1001B6BB0 /* QuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47972C4042E1001B6BB0 /* QuestionnaireView.swift */; };
+		C44C479A2C404301001B6BB0 /* Merchandiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47992C404301001B6BB0 /* Merchandiser.swift */; };
+		C44C479C2C40430D001B6BB0 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C479B2C40430D001B6BB0 /* Survey.swift */; };
+		C44C479E2C404315001B6BB0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C479D2C404315001B6BB0 /* Question.swift */; };
+		C44C47A02C40431E001B6BB0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C479F2C40431E001B6BB0 /* Customer.swift */; };
+		C44C47A22C40D94C001B6BB0 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C47A12C40D94C001B6BB0 /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C44C476F2C40307C001B6BB0 /* SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C47722C40307C001B6BB0 /* SurveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyApp.swift; sourceTree = "<group>"; };
+		C44C47762C40307E001B6BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44C47792C40307E001B6BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C44C47872C4041C9001B6BB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C44C47892C4041E2001B6BB0 /* SurveySelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveySelectionViewModel.swift; sourceTree = "<group>"; };
+		C44C478B2C404208001B6BB0 /* CustomerInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoViewModel.swift; sourceTree = "<group>"; };
+		C44C478D2C40422A001B6BB0 /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		C44C478F2C40425B001B6BB0 /* SurveyAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppView.swift; sourceTree = "<group>"; };
+		C44C47912C404280001B6BB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C44C47932C4042A3001B6BB0 /* SurveySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveySelectionView.swift; sourceTree = "<group>"; };
+		C44C47952C4042B7001B6BB0 /* CustomerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoView.swift; sourceTree = "<group>"; };
+		C44C47972C4042E1001B6BB0 /* QuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireView.swift; sourceTree = "<group>"; };
+		C44C47992C404301001B6BB0 /* Merchandiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchandiser.swift; sourceTree = "<group>"; };
+		C44C479B2C40430D001B6BB0 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		C44C479D2C404315001B6BB0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C44C479F2C40431E001B6BB0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		C44C47A12C40D94C001B6BB0 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44C476C2C40307C001B6BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44C47662C40307C001B6BB0 = {
+			isa = PBXGroup;
+			children = (
+				C44C47712C40307C001B6BB0 /* SurveyApp */,
+				C44C47702C40307C001B6BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44C47702C40307C001B6BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44C476F2C40307C001B6BB0 /* SurveyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44C47712C40307C001B6BB0 /* SurveyApp */ = {
+			isa = PBXGroup;
+			children = (
+				C44C47822C404131001B6BB0 /* Model */,
+				C44C47812C40412D001B6BB0 /* View */,
+				C44C47802C404125001B6BB0 /* View Model */,
+				C44C47722C40307C001B6BB0 /* SurveyApp.swift */,
+				C44C47762C40307E001B6BB0 /* Assets.xcassets */,
+				C44C47782C40307E001B6BB0 /* Preview Content */,
+			);
+			path = SurveyApp;
+			sourceTree = "<group>";
+		};
+		C44C47782C40307E001B6BB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C44C47792C40307E001B6BB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C44C47802C404125001B6BB0 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C44C47872C4041C9001B6BB0 /* LoginViewModel.swift */,
+				C44C47892C4041E2001B6BB0 /* SurveySelectionViewModel.swift */,
+				C44C478B2C404208001B6BB0 /* CustomerInfoViewModel.swift */,
+				C44C478D2C40422A001B6BB0 /* QuestionnaireViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		C44C47812C40412D001B6BB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C44C478F2C40425B001B6BB0 /* SurveyAppView.swift */,
+				C44C47912C404280001B6BB0 /* LoginView.swift */,
+				C44C47932C4042A3001B6BB0 /* SurveySelectionView.swift */,
+				C44C47952C4042B7001B6BB0 /* CustomerInfoView.swift */,
+				C44C47972C4042E1001B6BB0 /* QuestionnaireView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C44C47822C404131001B6BB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C44C47992C404301001B6BB0 /* Merchandiser.swift */,
+				C44C479B2C40430D001B6BB0 /* Survey.swift */,
+				C44C479D2C404315001B6BB0 /* Question.swift */,
+				C44C479F2C40431E001B6BB0 /* Customer.swift */,
+				C44C47A12C40D94C001B6BB0 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44C476E2C40307C001B6BB0 /* SurveyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C477D2C40307E001B6BB0 /* Build configuration list for PBXNativeTarget "SurveyApp" */;
+			buildPhases = (
+				C44C476B2C40307C001B6BB0 /* Sources */,
+				C44C476C2C40307C001B6BB0 /* Frameworks */,
+				C44C476D2C40307C001B6BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyApp;
+			productName = SurveyApp;
+			productReference = C44C476F2C40307C001B6BB0 /* SurveyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44C47672C40307C001B6BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C44C476E2C40307C001B6BB0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C44C476A2C40307C001B6BB0 /* Build configuration list for PBXProject "SurveyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44C47662C40307C001B6BB0;
+			productRefGroup = C44C47702C40307C001B6BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44C476E2C40307C001B6BB0 /* SurveyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44C476D2C40307C001B6BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C477A2C40307E001B6BB0 /* Preview Assets.xcassets in Resources */,
+				C44C47772C40307E001B6BB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44C476B2C40307C001B6BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C479C2C40430D001B6BB0 /* Survey.swift in Sources */,
+				C44C47882C4041C9001B6BB0 /* LoginViewModel.swift in Sources */,
+				C44C478E2C40422A001B6BB0 /* QuestionnaireViewModel.swift in Sources */,
+				C44C47732C40307C001B6BB0 /* SurveyApp.swift in Sources */,
+				C44C47A22C40D94C001B6BB0 /* Response.swift in Sources */,
+				C44C479E2C404315001B6BB0 /* Question.swift in Sources */,
+				C44C47A02C40431E001B6BB0 /* Customer.swift in Sources */,
+				C44C47902C40425B001B6BB0 /* SurveyAppView.swift in Sources */,
+				C44C47982C4042E1001B6BB0 /* QuestionnaireView.swift in Sources */,
+				C44C479A2C404301001B6BB0 /* Merchandiser.swift in Sources */,
+				C44C478C2C404208001B6BB0 /* CustomerInfoViewModel.swift in Sources */,
+				C44C47962C4042B7001B6BB0 /* CustomerInfoView.swift in Sources */,
+				C44C47922C404280001B6BB0 /* LoginView.swift in Sources */,
+				C44C47942C4042A3001B6BB0 /* SurveySelectionView.swift in Sources */,
+				C44C478A2C4041E2001B6BB0 /* SurveySelectionViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C44C477B2C40307E001B6BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C44C477C2C40307E001B6BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44C477E2C40307E001B6BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = P5B8DUW7N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syafiqsobri.SurveyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44C477F2C40307E001B6BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = P5B8DUW7N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syafiqsobri.SurveyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44C476A2C40307C001B6BB0 /* Build configuration list for PBXProject "SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C477B2C40307E001B6BB0 /* Debug */,
+				C44C477C2C40307E001B6BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44C477D2C40307E001B6BB0 /* Build configuration list for PBXNativeTarget "SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C477E2C40307E001B6BB0 /* Debug */,
+				C44C477F2C40307E001B6BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44C47672C40307C001B6BB0 /* Project object */;
+}
